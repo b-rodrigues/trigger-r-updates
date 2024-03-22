@@ -26,5 +26,5 @@ jobs:
           destination-github-username: 'b-rodrigues'
           destination-repository-name: 'nixpkgs'
           user-email: bruno@brodrigues.co
-          target-branch: r-daily
+          target-branch: r-daily-source
           target-directory: trigger_file
