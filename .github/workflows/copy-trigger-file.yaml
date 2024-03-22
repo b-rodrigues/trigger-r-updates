@@ -27,3 +27,4 @@ jobs:
           destination-repository-name: 'nixpkgs'
           user-email: bruno@brodrigues.co
           target-branch: r-daily
+          target-directory: trigger_file
