@@ -1,3 +1,5 @@
+Original readme:
+
 The [`copy-trigger-file.yaml` CI of this repository](https://github.com/philipp-baumann/ci-test-source-cp-file/blob/main/.github/workflows/copy-trigger-file.yaml)
 creates an empty **trigger artefact file** with time stamp and pushes that to
 the `target_cp` branch of the target repository at
