@@ -1,14 +1,9 @@
 Original readme:
 
-The [`copy-trigger-file.yaml` CI of this repository](https://github.com/philipp-baumann/ci-test-source-cp-file/blob/main/.github/workflows/copy-trigger-file.yaml)
-creates an empty **trigger artefact file** with time stamp and pushes that to
-the `target_cp` branch of the target repository at
-[`philipp-baumann/ci-test-target-cp-file`](https://github.com/philipp-baumann/ci-test-target-cp-file).
-
-This test setup was motivated by [the `r-daily.yml` CI in`r-daily-source` branch at
-`b-rodrigues/rixpkgs`](https://github.com/b-rodrigues/nixpkgs/blob/r-daily-source/.github/workflows/r-daily.yml),
-which runs when pushing to a specific branch. The pushing to a specific branch
-can e.g. be done by a source repository with a push trigger CI like this one.
+The `copy-trigger-file.yaml` CI of this repository
+creates an empty **trigger artifact file** with time stamp and pushes that to
+the `r-daily-source` branch of the target repository at
+[`rstats-on-nix/nixpkgs`](https://github.com/rstats-on-nix/nixpkgs).
 
 The action is used is based on
 [https://github.com/cpina/github-action-push-to-another-repository](cpina/github-action-push-to-another-repository).
