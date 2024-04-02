@@ -23,7 +23,7 @@ jobs:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
           source-directory: '_trigger-file'
-          destination-github-username: 'b-rodrigues'
+          destination-github-username: 'rstats-on-nix'
           destination-repository-name: 'nixpkgs'
           user-email: bruno@brodrigues.co
           target-branch: r-daily-source
