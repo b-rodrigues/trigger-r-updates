@@ -28,4 +28,3 @@ jobs:
           user-email: bruno@brodrigues.co
           target-branch: r-daily-source
           target-directory: trigger_file
-
